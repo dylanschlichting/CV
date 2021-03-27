@@ -1,0 +1,121 @@
+\documentclass{resume} % Use the custom resume.cls style
+ \usepackage{bibentry}
+ \usepackage{times}
+ \usepackage{hyperref}
+\usepackage{url}
+%\urlstyle{same}
+\usepackage[left=1 in,top=1in,right=1 in,bottom=1in]{geometry} % Document margins
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}} 
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{Dylan Schlichting} % Your name
+\address{University of Maine, Boardman Hall, Orono, ME 04469} % Your address
+\address{+1-413-262-4393 \\  \href{mailto:dylan.schlichting@maine.edu}{dylan.schlichting@maine.edu}
+}  % Your phone number and email
+\pagenumbering{Roman}
+\pagestyle{plain}
+\begin{document}
+\vspace{-85 pt}
+\bibliographystyle{apalike}
+\nobibliography{Manuscripts}
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+{\bf B.S.} Civil Engineering \hfill {August 2016 - December 2019}
+\\ 
+{\bf Minor:} Mathematics
+\\
+GPA 3.451 / 4.0 
+\\
+Relevant Coursework: Physical Oceanography (Graduate), Coastal Engineering (Graduate), Numerical Methods in Engineering (Graduate), Partial Differential Equations
+
+\end{rSection}
+
+%	WORK EXPERIENCE SECTION
+\begin{rSection}{Research Experience}
+\begin{rSubsection}{Student Research Assistant}{May 2017 - Present}{UMaine: Dept. Civil Engineering}{Adviser: Dr. Kimberly Huguenard} 
+\item Used analytical modeling to study the interaction of flow and suspended kelp farms  
+\item Analyzed the environmental impacts of coastal armoring structures on pocket beaches in Southern Maine
+\item Constructed, deployed, and managed an oceanographic mooring system for the Sensing Storm Surge Citizen Science Project
+\item Calculated and analyzed storm surge in three estuaries in mid-coast Maine
+\item Designed and managed laboratory experiments to study hydrodynamic and turbulent characteristics of flow through floating oyster cages
+\end{rSubsection}
+%------------------------------------------------
+
+\begin{rSubsection}{Engineering Research Assistant}{August 2018 - May 2019}{UMaine: School of Marine Sciences}{Adviser: Dr. Neal Pettigrew}
+\item Characterized inertial oscillations in the Gulf of Maine using observational data
+\item Used spectral analysis to study ocean circulation in the Gulf of Maine
+\end{rSubsection}
+
+\begin{rSubsection}{Research Experience for Undergraduates}{May 2018 - August 2018}{Texas A$\&$M University: Dept. Oceanography}{Adviser: Dr. Robert Hetland} 
+\item Analyzed Regional Ocean Modeling Systems outputs in Python to study salinity structure in Copano Bay, TX
+\item Analyzed estuarine time scales and total exchange flow in Copano Bay to understand poor performance of existing numerical models
+\item Cruise: R/V Pelican (3 days). Cocodrie, LA, to Flower Garden Banks National Marine Sanctuary 
+\end{rSubsection} 
+\end{rSection} 
+\vspace{-3pt}
+\begin{rSection}{Teaching}
+Tutor: Computers in Civil Engineering \hfill Spring 2019 \\
+\end{rSection}
+\vspace{-10pt}
+%	Presentations
+\begin{rSection} {Manuscripts in Preparation} \itemsep -3pt
+\begin{enumerate}
+    \item \bibentry{Stormsurge}
+    \item \bibentry{TechnicalReport}
+    \item \bibentry{OysterExperiment}
+\end{enumerate}    
+\end{rSection}
+
+\begin{rSection}{Other Technical Writing} \itemsep -3pt 
+\begin{enumerate}
+    \item  Schlichting, D., Daubert, C., Dyer, A., Earl-Johnson, D., and Zachau, C. (2019). Maine Ocean School final design report. Department of Civil and Environmental Engineering senior capstone project. 228 pp.
+    \item  Schlichting, D., Daubert, C., Dyer, A., Earl-Johnson, D., and Zachau, C. (2018). Maine Ocean School project proposal. Department of Civil and Environmental Engineering senior capstone project. 58 pp.
+\end{enumerate}
+\end{rSection}
+
+\begin{rSection}{Presentations and Conferences} \itemsep -3pt  
+\begin{enumerate}
+    \item \bibentry{Northeast2019}
+    \item Schlichting, D. and Hetland, R. (2018). Using salinity variance and total exchange flow to ana-lyze salinity structure in an unsteady estuary. Physics of Estuaries and Coastal Seas Conference, Galveston TX. October 14-18. Poster.
+    \item Schlichting, D. and Hetland, R. (2018). Mechanisms controlling salinity structure structure in a broad, shallow, unsteady estuary. Sustainable Ecological Aquaculture Network Undergraduate Research Symposium, Walpole ME. August 7. Poster.
+    \item Schlichting, D. and Hetland, R. (2018). Salinity structure in Copano Bay. Texas A$\&$M University Observing the Ocean REU Student Symposium, College Station, TX. August 2. Talk.
+    \item \bibentry{SEANET2017}
+\end{enumerate}
+\end{rSection}
+%----------------------------------------------
+\begin{rSection}{Honors and Awards} \itemsep -3pt {}
+\vspace{-7pt}
+\item Frank Sleeper - Sawyer Scholarship \hfill August 2017 - Present
+\item Best capstone project \hfill May 2019
+\item Chi Epsilon Member: Civ. Eng. Honors Society \hfill May 2019 
+\item Dean's List \hfill Fall 2016, Spring 2019
+\item Alpha Tau Omega Memorial Scholarship \hfill December 2018
+\end{rSection}
+
+
+\begin{rSection}{SKILLS}
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Programming & MATLAB, Python, R, and C$\#$  \\
+Modeling & Regional Ocean Modeling Systems and FVCOM\\
+Oceanographic Equipment &  Experience with ADCPs, ADVs, CTDs, and PTVs \\
+Civil Engineering & Autocad, Revit, and HEC-RAS \\ 
+Other & \LaTeX, Wolfram Mathematica, Microsoft word, excel, and project 
+\end{tabular}
+\end{rSection}
+\newpage
+\begin{rSection}{Professional Societies} \itemsep -3pt {}
+\vspace{-7pt}
+\item Association for the Sciences of Limnology and Oceanography
+\item The Oceanography Society 
+\item American Society of Civil Engineers
+\end{rSection}
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Extra-Curricular Activities} \itemsep -1pt {}   
+\vspace{-7pt}
+\item Alpha Tau Omega \hfill Fall 2017 - Present
+\item Engineers Without Borders \hfill Fall 2016
+\end{rSection}
+\end{document}
